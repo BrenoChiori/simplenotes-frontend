@@ -3,6 +3,7 @@ import { api } from '../services/api'
 
 export const AuthContext = createContext({})
 
+// eslint-disable-next-line react/prop-types
 function AuthProvider({ children }) {
     const [data, setData] = useState({})
 
@@ -95,4 +96,5 @@ function useAuth() {
     return context
 }
 
+// eslint-disable-next-line react-refresh/only-export-components
 export { AuthProvider, useAuth }
