@@ -1,6 +1,6 @@
 # Front-end Rocket Movies
 
-Este e um projeto do front-end do Rocket Notes
+Este e um projeto do front-end do Simple Notes
 
 ## Descrição
 
